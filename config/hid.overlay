@@ -1,0 +1,5 @@
+/ {
+    chosen {
+        zmk,hid = &zmk_hid_keyboard;  // keyboard-only HID (no mouse)
+    }
+};
